@@ -55,7 +55,7 @@ const FileBrowser = () => {
   }, [isTerminalOpen]);
 
   return (
-    <div className="p-5">
+    <div className="p-5 w-full h-[70vh] border shadow-md rounded-md bg-gray-200">
       <MenuBar onCreate={handleCreate} onDelete={handleDelete} />
       <button
         onClick={() => setIsTerminalOpen(true)} className="bg-blue-500 text-white p-2 mb-4 rounded-md">
